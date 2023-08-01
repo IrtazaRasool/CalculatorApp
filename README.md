@@ -1,35 +1,45 @@
-# Calculator
+# Calculator App
 
-This is a straightforward calculator app developed using Flutter, a popular open-source UI software development kit created by Google. The app provides users with the ability to perform fundamental arithmetic operations, such as addition, subtraction, multiplication, and division.
+This Flutter app implements a simple calculator where users can perform basic arithmetic operations. The app displays the user input and the evaluated result using the math_expressions package to parse and evaluate mathematical expressions.
 
-## Key Features
+## Screenshots
 
-- Addition, subtraction, multiplication, and division operations
-- Clear button to reset the calculator
-- Responsive layout that adapts to various screen sizes
+<img src="https://github.com/IrtazaRasool/CalculatorApp/assets/141081749/73b79016-5c5b-4be1-af09-2dbf6ddb7ea8" width="300">
 
-## Requirements
+## Features
 
-- Flutter SDK (v2.0.0 or higher)
-- Android Studio / Visual Studio Code (or any preferred Flutter development environment)
+- Supports addition, subtraction, multiplication, division, percentage, and change of sign operations.
+- Displays user input and the evaluated result.
+- Allows users to clear input (AC), delete last character (DEL), and calculate the result (=).
 
-## Acknowledgements
+## Getting Started
 
-As a beginner, I undertook this calculator project to enhance my proficiency in Flutter development.
+### Prerequisites
 
-## How to Run the Project
+Make sure you have Flutter and Dart installed on your development machine. You can find installation instructions [here](https://flutter.dev/docs/get-started/install).
 
-1. Obtain the required dependencies by running the following command in the terminal:
-   ```bash
-   flutter pub get
-   ```
+### Installation
 
-2. Launch the app on a connected device or emulator using the following command:
-   ```bash
-   flutter run
-   ```
+1. Clone this repository to your local machine using `git clone https://github.com/your-username/calculator_app.git`.
+2. Open the project in your preferred IDE or editor.
 
-## Author
+### Running the App
 
-GitHub: https://github.com/IrtazaRasool
+1. Connect your device/emulator to your machine.
+2. Run the app using `flutter run` in the terminal or use the "Run" button in your IDE.
 
+## Dependencies
+
+The app uses the following packages:
+
+- `flutter/material.dart`: Provides the Flutter framework and widgets.
+- `math_expressions`: For parsing and evaluating mathematical expressions.
+
+## Contributing
+
+Contributions to improve this app are welcome! If you find any bugs or have suggestions for new features, please open an issue or submit a pull request.
+
+
+## Credits
+
+Irtaza Rasool Khan
